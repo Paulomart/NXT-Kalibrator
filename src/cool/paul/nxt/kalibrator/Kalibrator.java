@@ -20,6 +20,10 @@ public class Kalibrator {
 		//
 		Motor.A.rotate(-185, true);
 		Motor.B.rotate(185);
+		//
+		Motor.A.rotate(600, true);
+		Motor.B.rotate(600);
+		
 	}
 
 	public static void cali() {
