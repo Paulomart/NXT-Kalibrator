@@ -9,21 +9,25 @@ import lejos.nxt.SensorPort;
 public class Kalibrator {
 
 	public static void main(String[] args) {
-		cali();
+		// cali();
 		Motor.A.setSpeed(300);
 		Motor.B.setSpeed(300);
-		Motor.A.rotate(150, true);
-		Motor.B.rotate(-150);
 		//
-		Motor.A.rotate(330, true);
-		Motor.B.rotate(330);
+		Motor.A.rotate(400, true);
+		Motor.B.rotate(400);
 		//
-		Motor.A.rotate(-185, true);
-		Motor.B.rotate(185);
+		Motor.A.rotate(250, true);
+		Motor.B.rotate(-250);
+		//
+		Motor.A.rotate(320, true);
+		Motor.B.rotate(320);
+		//
+		Motor.A.rotate(-300, true);
+		Motor.B.rotate(300);
 		//
 		Motor.A.rotate(600, true);
 		Motor.B.rotate(600);
-		
+
 	}
 
 	public static void cali() {
