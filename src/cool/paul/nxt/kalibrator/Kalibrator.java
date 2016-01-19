@@ -52,8 +52,8 @@ public class Kalibrator {
 			if (x != 0) {
 				Motor.A.setSpeed(50);
 				Motor.B.setSpeed(50);
-				Motor.A.rotate(-25, true);
-				Motor.B.rotate(-25);
+				Motor.A.rotate(-50, true);
+				Motor.B.rotate(-50);
 			}
 			int r = 8 - x * 3;
 			if (r < 1) {
