@@ -15,11 +15,11 @@ public class Kalibrator {
 		Motor.A.rotate(150, true);
 		Motor.B.rotate(-150);
 		//
-		Motor.A.rotate(320, true);
-		Motor.B.rotate(320);
+		Motor.A.rotate(330, true);
+		Motor.B.rotate(330);
 		//
-		Motor.A.rotate(-180, true);
-		Motor.B.rotate(180);
+		Motor.A.rotate(-185, true);
+		Motor.B.rotate(185);
 	}
 
 	public static void cali() {
