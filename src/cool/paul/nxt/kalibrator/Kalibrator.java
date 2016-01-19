@@ -13,20 +13,20 @@ public class Kalibrator {
 		Motor.A.setSpeed(300);
 		Motor.B.setSpeed(300);
 		//
-		Motor.A.rotate(400, true);
-		Motor.B.rotate(400);
+	//	Motor.A.rotate(400, true);
+	//	Motor.B.rotate(400);
 		//
-		Motor.A.rotate(250, true);
-		Motor.B.rotate(-250);
+	//	Motor.A.rotate(250, true);
+	//	Motor.B.rotate(-250);
 		//
-		Motor.A.rotate(320, true);
-		Motor.B.rotate(320);
+	//	Motor.A.rotate(320, true);
+	//	Motor.B.rotate(320);
 		//
-		Motor.A.rotate(-291, true);
-		Motor.B.rotate(291);
+	//	Motor.A.rotate(-291, true);
+	//	Motor.B.rotate(291);
 		//
-		Motor.A.rotate(1200, true);
-		Motor.B.rotate(1200);
+		Motor.A.rotate(1800, true);
+		Motor.B.rotate(1800);
 
 	}
 
