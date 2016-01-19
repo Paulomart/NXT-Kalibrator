@@ -18,8 +18,8 @@ public class Kalibrator {
 		Motor.A.rotate(300, true);
 		Motor.B.rotate(300);
 		//
-		Motor.A.rotate(-150, true);
-		Motor.B.rotate(150);
+		Motor.A.rotate(-180, true);
+		Motor.B.rotate(180);
 	}
 
 	public static void cali() {
