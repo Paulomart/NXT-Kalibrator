@@ -22,8 +22,8 @@ public class Kalibrator {
 		Motor.A.rotate(320, true);
 		Motor.B.rotate(320);
 		//
-		Motor.A.rotate(-300, true);
-		Motor.B.rotate(300);
+		Motor.A.rotate(-280, true);
+		Motor.B.rotate(280);
 		//
 		Motor.A.rotate(600, true);
 		Motor.B.rotate(600);
