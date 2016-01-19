@@ -50,8 +50,8 @@ public class Kalibrator {
 		int x = 0;
 		while (x < 8) {
 			if (x != 0) {
-				Motor.A.setSpeed(200);
-				Motor.B.setSpeed(200);
+				Motor.A.setSpeed(50);
+				Motor.B.setSpeed(50);
 				Motor.A.rotate(-25, true);
 				Motor.B.rotate(-25);
 			}
